@@ -1,0 +1,92 @@
+/* size for Desktop */
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* size for Desktop */
+
+/* nev bar start */
+[class*="col-"]{float: left;padding: 10px;}.nevbar::after{clear: both;content: '';display: table;}
+
+ 
+.nev-logo img{width: 120px;
+
+}
+.nev-heading{padding: 22px;}
+.nev-menu{flex-direction:row;margin-top:-5px;justify-content: flex-end;}
+.nev-menu a{margin-right: 30px;padding: 10px 25px;background-color: transparent;}
+.nev-menu a:hover{background-color: rgb(26, 156, 156);}
+
+
+
+                /* nev bar end */
+
+
+         /*Profile Start*/
+  .top-icon{position: absolute;right: 100px;top: 40px;
+      transition: all 2s ;
+   }
+ .top-icon:hover{transform: rotate(360deg);
+width: 140px;
+}
+.profile-dec p{text-align: center;color: rgb(52, 53, 53);;margin: 0px 40px;}
+  .buttom-icon{
+  position: absolute;
+  bottom: 20px;
+  transition: all 2s;
+ left: 100px;         }
+  .buttom-icon:hover{transform: rotate(360deg);}
+                     
+
+/* profile end */
+
+ /*aboout me strt */
+ .about-me-desc p{text-align: justify;}
+.about-me-img{padding: 20px 0px;
+
+   }
+  .about-me-desc>p>a>button{margin:7px;}
+  .about-me-img>img:hover{box-shadow: 3px 5px 10px  2px white;}
+  .about-me-img>img{border-radius: 50px;height:500px;width:420px}
+  /* about me end hear */
+
+ 
+ 
+.profational{display: flex;flex-direction:row;margin-top: px;justify-content: flex-end;}
+
+.profational{margin: 0px 35px;text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.work-exp{border-radius: 20px;background-color: rgb(173, 165, 165);padding:30px 10px;margin: 35px 15px;}
+.study-exp{border-radius: 20px;background-color: rgb(173, 165, 165);padding:30px 10px;margin: 35px 15px;;}
+.skil-exp{border-radius: 20px;background-color: rgb(173, 165, 165);padding:30px 10px;margin: 35px 15px;}
+
+
+/* achivement contact start  */
+.achivement-contact{display: flex;flex-direction:row;margin-top: px;justify-content: flex-end;}
+.achivement-contact{color: white;background-color: rgb(32, 148, 177);text-align: center;text-transform: uppercase;font-family:sans-serif;
+  padding:20px 30px;}
+
+  .achivement{padding:0px 35px;}
+
+
+/* achivement contact end  */
+
+  /* footer section start hear */
+
+.footer::after{clear: both;content: '';display: table;}
+
+
+.footer-dec{text-align: center;padding: 15px 0px;margin-top: 25px;font-size: 20px;} 
+
+
+  /* footer section end hear */
